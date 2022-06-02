@@ -1,0 +1,23 @@
+baseURL = 'http://manuel.infenlaces.com/industria4-0/presentacion'
+# languageCode = 'es-ES'
+title = 'Automatización del aula 2.09'
+theme='docsy'
+
+
+
+
+# Para poder cargar emogin https://www.webfx.com/tools/emoji-cheat-sheet/
+enableEmoji = true
+
+#Establecer el idioma predeterminado
+# defaultContentLanguage="es"
+
+
+# Para crear gráficos direccionales
+[params.markmap]
+    enable = true
+#Parámetros para que trabaje mermaid
+ [params.mermaid]
+enable = true
+
+#Vamos a especificar las imágenes
