@@ -340,7 +340,8 @@ h6, .h6 {
 .display-1 {
   font-size: 3rem;
   font-weight: 700;
-  line-height: 1.2; }
+  line-height: 1.2;
+  color: #45464A; }
 
 .display-2 {
   font-size: 2.5rem;
