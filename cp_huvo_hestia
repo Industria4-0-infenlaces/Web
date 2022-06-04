@@ -1,0 +1,3 @@
+hugo 
+scp -p 22022 ./public/* industria4-0@infenlaces.com:web/industria4-0.infenlaces.com/public_html
+

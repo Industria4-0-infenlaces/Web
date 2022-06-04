@@ -1,6 +1,6 @@
 baseURL = 'http://industria4-0.infenlaces.com/'
 # languageCode = 'es-ES'
-title = 'Automatización del aula 2.09'
+title = 'Gestión sesonrizada de un aula'
 theme='docsy'
 
 
@@ -22,28 +22,31 @@ enableEmoji = true
 #Parámetros para que trabaje mermaid
  [params.mermaid]
 enable = true
+
+
+
 #Menus
-
-
-
 [menu]
 [[menu.main]]
   name = 'Wikieducator'
-  pre = "<i class='fa fa-heart'></i>"
-  url = '/about/'
+  post = "<span class='alert'>Wikieducator!</span>"
+  pre = "<i class='fab fa-wikipedia' aria-hidden='true'></i>"
+  url = 'https://es.wikieducator.org/Usuario:CPIFPENLACES_industria4.0'
 
 [[menu.main]]
   name = 'Slack'
-  pre = "<i class='fa fa-heart'></i>"
-  url = '/about/'
+  pre = "<i class='fab fa-slack'></i>"
+  url = 'https://app.slack.com/client/T02L3MDREQ6/C02L3MM5C78?selected_team_id=T02L3MDREQ6'
 [[menu.main]]
   name = 'Git'
-  pre = "<i class='fa fa-heart'></i>"
-  url = '/about/'
+  pre ="<i class='fab fa-github'></i>"
+
+  url = 'https://github.com/Industria4-0-infenlaces'
+
 [[menu.main]]
   name = 'Trello'
-  pre = "<i class='fa fa-heart'></i>"
-  url = '/about/'
+  pre = "<i class='fab fa-trello'></i>"
+  url = 'https://trello.com/b/dFABIeo4/'
 
 
 
